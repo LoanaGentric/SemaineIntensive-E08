@@ -1,0 +1,34 @@
+body {
+  background: url('../images/fond.jpg');
+}
+/*BANDEAU*/
+.bandeau {
+  width: 155px;
+  transform: rotate(45deg);
+  position: absolute;
+  margin: -45px;
+  float: left;
+}
+/*MENU DE NAVIGATION*/
+.top-bar {
+  background: transparent;
+}
+.menu{
+  justify-content: space-between;
+  margin-bottom: 20px;
+  background-color: pink;
+}
+ul {
+  box-shadow: 0px 0 5px grey;
+}
+.personnaliser{
+  background-color: #324D5C;
+}
+#personnaliser{
+  color: white;
+}
+.menu ul li a{
+  color: black;
+  width: 100%;
+  text-align: left;
+}
