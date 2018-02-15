@@ -1,13 +1,14 @@
 p{
-  font-family: "Bellefair";
+  font-family: "Noto Sans";
 }
 h1, h2, h3, h4, h5, h6, span {
-  font-family: "Varela";
+  font-family: "Fira Sans";
   color: #2ba6cb;
 }
 header {
-  background-color: #c21674;
+  background-color: #ffcccc;
   z-index: 10;
+  padding-bottom: 10px;
 }
 .header {
   justify-content: space-between;
@@ -117,7 +118,7 @@ header {
   margin : 0 auto;
 }
 footer {
-  background-color: #c21674;
+  background-color: #ffcccc;
 }
 .footerLogo {
   border-bottom: 1px solid white;
