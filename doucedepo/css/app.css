@@ -1,6 +1,3 @@
-p{
-  font-family: "Noto Sans";
-}
 h1, h2, h3, h4, h5, h6, span {
   font-family: "Fira Sans";
   color: #2ba6cb;
@@ -48,6 +45,86 @@ header {
 }
 
 
+.shopping-cart-item{
+  width: 65%;
+}
+
+
+
+
+.button.expanded {
+  background-color: #ffcccc;
+ box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+ color: black;
+}
+
+
+.shopping-cart-item img {
+  width: 35%;
+  height: 50%;
+}
+.textShopping {
+  color: white;
+}
+.textStrengths {
+  margin-top: 1rem;
+}
+.shopping-cart-button {
+  padding: 0.6rem;
+}
+
+.shopping-cart-button:hover {
+  background-color: pink;
+}
+
+.shopping-cart-button i {
+  margin-right: 0.5rem;
+}
+
+.shopping-cart-dropdown-pane .dropdown-pane {
+  padding: 0;
+}
+
+.shopping-cart-item {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.shopping-cart-item-name, .shopping-cart-item-price {
+  padding: 0 1rem;
+}
+
+.shopping-cart-item-name p, .shopping-cart-item-price p {
+  margin: 0;
+  padding: 0;
+}
+
+.shopping-cart-title {
+  font-weight: bold;
+}
+
+.shopping-cart-checkout {
+  padding: 0.5rem;
+  margin-bottom: 0;
+  background: pink;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 @media print, screen and (min-width: 64em) {
   .menu.large-horizontal {
@@ -74,7 +151,9 @@ header {
 
 
 
-
+.button {
+  margin: 0;
+}
 
 
 
@@ -143,7 +222,6 @@ footer .block-title h3 {
   justify-content: space-around;
 }
 #spanNewsletter {
-  font-family: "Varela";
   font-size: 0.9rem;
 }
 
