@@ -1,0 +1,152 @@
+p{
+  font-family: "Bellefair";
+}
+h1, h2, h3, h4, h5, h6, span {
+  font-family: "Varela";
+  color: #2ba6cb;
+}
+header {
+  background-color: #c21674;
+  z-index: 10;
+}
+.header {
+  justify-content: space-between;
+}
+.headerLogo {
+  width: 20%;
+}
+.headerLogo.medium-6 {
+  float: center;
+}
+#responsiveMenu {
+  z-index: 100;
+}
+#wowslider-container1 {
+  z-index: 10;
+}
+.dropdown.menu li {
+  list-style: none;
+}
+.dropdown.menu a{
+  color: white;
+}
+.dropdown.menu.large-horizontal > li.is-dropdown-submenu-parent > a {
+  transition: all ease-in-out 300ms;
+}
+.dropdown.menu a:hover {
+  background: pink;
+  color: #C12957;
+  transition: all ease-in-out 300ms;
+}
+.dropdown .is-dropdown-submenu a {
+  color : #2ba6cb
+}
+
+.block-title h3 a{
+  color : black;
+}
+
+
+
+@media print, screen and (min-width: 64em) {
+  .menu.large-horizontal {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    top: 23%;
+  }
+}
+
+@media print, screen and (min-width: 64em) {
+  .dropdown.menu.large-horizontal > li.opens-right > .is-dropdown-submenu {
+      top: 75%;
+      right: auto;
+      left: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.socialIcons {
+  width: 12%;
+}
+.displayBlock {
+  display: block;
+}
+
+
+
+
+
+
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+  border-color: #c21674 transparent transparent;
+}
+.align-bottom {
+  -ms-flex-align: stretch;
+  align-items: inherit;
+}
+.drilldown .is-drilldown-submenu a {
+  padding: 0.7rem 1rem;
+  margin-left: 50px;
+}
+.strengths {
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.strengths img {
+  width: 50%;
+}
+.strength {
+  margin : 0 auto;
+}
+footer {
+  background-color: #c21674;
+}
+.footerLogo {
+  border-bottom: 1px solid white;
+}
+.footerLogo img {
+  width: 20%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footerLinks {
+  padding: 20px 0;
+}
+footer .block-title span {
+  font-size: 1.2rem;
+  color : white;
+}
+footer .block-title h3 {
+  font-size: 0.9rem;
+  color : black;
+}
+.footerBox {
+  justify-content: space-around;
+}
+#spanNewsletter {
+  font-family: "Varela";
+  font-size: 0.9rem;
+}
+
+#responsiveMenu li ul {
+  margin: 0;
+  color : #2ba6cb;
+}
