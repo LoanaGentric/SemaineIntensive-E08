@@ -1,4 +1,3 @@
-
 h1, h2, h3, h4, h5, h6, span {
   font-family: "Fira Sans";
   color: #2ba6cb;
@@ -40,21 +39,33 @@ header {
 .dropdown .is-dropdown-submenu a {
   color : #2ba6cb
 }
-
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+  border-color: #c21674 transparent transparent;
+}
+.align-bottom {
+  -ms-flex-align: stretch;
+  align-items: inherit;
+}
+.drilldown .is-drilldown-submenu a {
+  padding: 0.7rem 1rem;
+  margin-left: 50px;
+}
+#spanNewsletter {
+  font-size: 0.9rem;
+}
+#responsiveMenu li ul {
+  margin: 0;
+  color : #2ba6cb;
+}
 .block-title h3 a{
   color : black;
 }
-
-
 .content-details h3 {
   font-size: 1rem;
 }
-
-
 .shopping-cart-item{
   width: 65%;
 }
-
 .shopping-cart-item img {
   width: 35%;
   height: 50%;
@@ -62,23 +73,18 @@ header {
 .textShopping {
   color: white;
 }
-
 .shopping-cart-button {
   padding: 0.6rem;
 }
-
 .shopping-cart-button:hover {
   background-color: pink;
 }
-
 .shopping-cart-button i {
   margin-right: 0.5rem;
 }
-
 .shopping-cart-dropdown-pane .dropdown-pane {
   padding: 0;
 }
-
 .shopping-cart-item {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -89,28 +95,21 @@ header {
   padding: 1rem;
   border-bottom: 1px solid #e6e6e6;
 }
-
 .shopping-cart-item-name, .shopping-cart-item-price {
   padding: 0 1rem;
 }
-
 .shopping-cart-item-name p, .shopping-cart-item-price p {
   margin: 0;
   padding: 0;
 }
-
 .shopping-cart-title {
   font-weight: bold;
 }
-
 .shopping-cart-checkout {
   padding: 0.5rem;
   margin-bottom: 0;
   background: pink;
 }
-
-
-
 @media print, screen and (min-width: 64em) {
   .menu.large-horizontal {
     -ms-flex-wrap: wrap;
@@ -128,58 +127,11 @@ header {
       left: 0;
   }
 }
+/*****
 
+Footer
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.socialIcons {
-  width: 12%;
-}
-.displayBlock {
-  display: block;
-}
-
-
-
-
-
-
-
-.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
-  border-color: #c21674 transparent transparent;
-}
-.align-bottom {
-  -ms-flex-align: stretch;
-  align-items: inherit;
-}
-.drilldown .is-drilldown-submenu a {
-  padding: 0.7rem 1rem;
-  margin-left: 50px;
-}
-.strengths {
-  justify-content: space-between;
-  margin-top: 30px;
-}
-.strengths img {
-  width: 50%;
-}
-.strength {
-  margin : 0 auto;
-}
-
+****/
 footer {
   background-color: #ffcccc;
 }
@@ -205,81 +157,40 @@ footer .block-title h3 {
 .footerBox {
   justify-content: space-around;
 }
-#spanNewsletter {
-  font-size: 0.9rem;
+.block-title h3 a{
+  color : black;
 }
-
-#responsiveMenu li ul {
-  margin: 0;
-  color : #2ba6cb;
+.socialIcons {
+  width: 12%;
 }
+.displayBlock {
+  display: block;
+}
+/*****
 
+Produits
+
+****/
 .product {
   justify-content: space-between;
   margin-bottom: 40px;
 }
-
-
-
-
-
-
-
-.block-title h3 a{
-  color : black;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .main-title{
   color: #2d2d2d;
   text-align: center;
   text-transform: capitalize;
   padding: 0.7em 0;
 }
-
 .container{
   padding: 1em 0;
   float: left;
   width: 50%;
 }
-@media screen and (max-width: 640px){
-  .container{
-    display: block;
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 900px){
-  .container{
-    width: 33.33333%;
-  }
-}
-
 .container .title{
   color: #1a1a1a;
   text-align: center;
   margin-bottom: 10px;
 }
-
 .content {
   position: relative;
   width: 90%;
@@ -287,7 +198,6 @@ footer .block-title h3 {
   margin: auto;
   overflow: hidden;
 }
-
 .content .content-overlay {
   background: rgba(0,0,0,0.7);
   position: absolute;
@@ -302,15 +212,12 @@ footer .block-title h3 {
   -moz-transition: all 0.4s ease-in-out 0s;
   transition: all 0.4s ease-in-out 0s;
 }
-
 .content:hover .content-overlay{
   opacity: 1;
 }
-
 .content-image{
   width: 100%;
 }
-
 .content-details {
   position: absolute;
   text-align: center;
@@ -327,13 +234,11 @@ footer .block-title h3 {
   -moz-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
-
 .content:hover .content-details{
   top: 50%;
   left: 50%;
   opacity: 1;
 }
-
 .content-details h3{
   color: #fff;
   font-weight: 500;
@@ -341,24 +246,31 @@ footer .block-title h3 {
   margin-bottom: 0.5em;
   text-transform: uppercase;
 }
-
 .content-details p{
   color: #fff;
   font-size: 0.8em;
 }
-
 .fadeIn-bottom{
   top: 80%;
 }
-
 .fadeIn-top{
   top: 20%;
 }
-
 .fadeIn-left{
   left: 20%;
 }
-
 .fadeIn-right{
   left: 80%;
+}
+@media screen and (max-width: 640px){
+  .container{
+    display: block;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 900px){
+  .container{
+    width: 33.33333%;
+  }
 }
